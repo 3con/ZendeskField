@@ -46,7 +46,6 @@
         <th scope='col' abbr='subject'>Subject</th>
             <th scope='col' abbr='priority'>Priority</th>
             <th scope='col' abbr='status'>Status</th>
-            <th scope='col' abbr='status'>Price</th>
             <th scope='col' abbr='solved'>Solved Time</th>
             </tr>
         <?php
