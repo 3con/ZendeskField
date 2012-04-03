@@ -1,0 +1,5 @@
+Remove the commenting below in index.php to see a full dump of the results, then you can pick your own variables (custom fields)
+//
+//echo "<pre>";
+//var_dump($doc);
+//echo "</pre>";
