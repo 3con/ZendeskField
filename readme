@@ -1,3 +1,5 @@
+This code will allow you to search for a custom field and display the results of that custom field using Zendesk's PHP API.
+
 Remove the commenting below in index.php to see a full dump of the results, then you can pick your own variables (custom fields)
 //
 //echo "<pre>";
