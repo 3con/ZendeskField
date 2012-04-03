@@ -3,3 +3,11 @@ Remove the commenting below in index.php to see a full dump of the results, then
 //echo "<pre>";
 //var_dump($doc);
 //echo "</pre>";
+
+Make sure to add credentials and enter your value in index.php
+
+	$customValue="Enter Value here";
+	
+	$url = "http://wmp.zendesk.com/search.xml?query=$customValue";
+	
+    curl_setopt($ch, CURLOPT_USERPWD, 'username:pass');
