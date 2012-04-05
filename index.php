@@ -3,7 +3,7 @@
     error_reporting(0);
     $customValue="Enter Value here";
 
-    $url = "http://wmp.zendesk.com/search.xml?query=$customValue";
+    $url = "http://YOURDOMAIN.zendesk.com/search.xml?query=$customValue";
     $headers = array('Content-type: application/xml');
     $ch = curl_init();
 

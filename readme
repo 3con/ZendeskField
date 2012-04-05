@@ -10,6 +10,6 @@ Make sure to add credentials and enter your value in index.php
 
 	$customValue="Enter Value here";
 	
-	$url = "http://wmp.zendesk.com/search.xml?query=$customValue";
+	$url = "http://YOURDOMAIN.zendesk.com/search.xml?query=$customValue";
 	
     curl_setopt($ch, CURLOPT_USERPWD, 'username:pass');
